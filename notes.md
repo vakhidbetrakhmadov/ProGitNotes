@@ -18,3 +18,9 @@
 | git log -S\<string\>| display logs that cantain provided string in their change |
 | git log -- filepath | display logs that affect provided path only |
 | git remote -v | list this project's remotes together with their URLs |
+| git remote add URL | add a remote repo |
+| git tag | list all available tags |
+| git tag -a \<tagname\> -m "message" | create an annotated tag with \<tagname\> and message -> `git tag v1.1 -m "Release 1.1"` |
+| git show \<tagname\> | displat a tag data |
+| git tag \<tagname\> | create a lightweight tag | 
+| git push origin \<tagname\> / --tags| to push a tag / all tags to remote | 
