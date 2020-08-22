@@ -21,6 +21,9 @@
 | git remote add URL | add a remote repo |
 | git tag | list all available tags |
 | git tag -a \<tagname\> -m "message" | create an annotated tag with \<tagname\> and message -> `git tag v1.1 -m "Release 1.1"` |
-| git show \<tagname\> | displat a tag data |
+| git show \<tagname\> | display a tag data |
 | git tag \<tagname\> | create a lightweight tag | 
 | git push origin \<tagname\> / --tags| to push a tag / all tags to remote | 
+| git log --decorated | display branch pointer next to commit it points at |
+| git merge \<branch name\> | merge given branch into the current one |
+| git branch -d \<branch name\>| delete given branch |
